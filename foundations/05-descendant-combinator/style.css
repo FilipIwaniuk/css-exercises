@@ -3,3 +3,8 @@
   background-color: #ffff00;
   text-align: center;
 }
+
+.footer, .secondary, .primary {
+  font-family: sans-serif;
+}
+
