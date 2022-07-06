@@ -1,0 +1,28 @@
+.main-text {
+  background-color: #ffa7a7;
+  font-family: sans-serif;
+}
+
+#main-id {
+  color: #0303ff;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+.supporting-text {
+  background-color: #ffa7a7;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+#supporting-id {
+  font-weight: bold;
+  background-color: #80ff80;
+  font-family: sans-serif;
+  font-size: 22px;
+}
+
+.footer-class {
+  background-color: #ffa7a7;
+  font-family: sans-serif;
+}
