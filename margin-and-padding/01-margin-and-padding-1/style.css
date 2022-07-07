@@ -6,7 +6,7 @@ body {
 .one {
   background: pink;
   border: 3px solid blue;
-  /* CHANGE ME  T R B L*/
+  /* CHANGE ME  T R B L FIRST ITERATION */
   padding: 32px;
   margin: 0px 0px 12px 0px;
 }
@@ -14,7 +14,7 @@ body {
 .two {
   background: lightblue;
   border: 3px solid purple;
-  /* CHANGE ME */
+  /* CHANGE ME FIRST ITERATION */
   margin-bottom: 48px;
 }
 
@@ -23,6 +23,10 @@ body {
   border: 3px solid brown;
   width: 200px;
   /* CHANGE ME */
+  /* FIRST ITERATION */
   padding: 32px;
-  margin-left: 330px;
+  /* margin-left: 330px; */
+
+  /* SECOND ITERATION */
+  margin-left: auto;
 }
