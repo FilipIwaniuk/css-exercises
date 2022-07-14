@@ -12,6 +12,7 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
 }
 
 .profile-image {
@@ -46,3 +47,27 @@ a {
 ul {
   list-style-type: none;
 }
+
+
+/* PROVISION OF SOLUTION */
+.left-container {
+  display: flex; 
+}
+
+.left-container .logo {
+  padding: 10px;
+}
+
+.left-container .links {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.right-container {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  gap: 10px;
+}
+
