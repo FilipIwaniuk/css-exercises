@@ -4,13 +4,14 @@ ul {
 }
 
 
-.header  {
+.header {
   font-family: monospace;
   background: papayawhip;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -32,4 +33,42 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+/* LEFT LINKS STYLING */
+.left-links {
+  margin-right: auto;
+}
+
+.left-links ul a {
+  margin-left: 10px;
+}
+
+.header .left-links ul {
+  display: flex;
+  align-self: flex-start;
+  column-gap: 5px;
+}
+
+/* LOGO STYLING */
+
+.logo {
+  align-self: center;
+  justify-self: center;
+}
+
+
+/* RIGHT LINKS STYLING */
+.right-links ul a {
+  margin-right: 10px;
+}
+
+.right-links {
+  margin-left: auto;
+}
+
+.header .right-links ul {
+  display: flex;
+  align-self: flex-end;
+  column-gap: 5px;
 }
