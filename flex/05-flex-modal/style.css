@@ -95,3 +95,19 @@ button.cancel {
 .right-container .text {
   padding-bottom: 15px;
 }
+
+.grouping {
+  background-color: #888;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.grouping .header {
+  border: 2px solid;
+  align-self: center;
+}
+
+.grouping .close-button {
+  border: 2px solid black;
+}
