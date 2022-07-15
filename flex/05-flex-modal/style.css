@@ -110,4 +110,5 @@ button.cancel {
 
 .grouping .close-button {
   /* border: 2px solid black; */
+  flex-shrink: 0;
 }
